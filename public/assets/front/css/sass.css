@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+body {
+  background-color: #dfeddc;
+  overflow-x: hidden;
+}
+
+body .news_block {
+  border: 1px #5da752 solid;
+  min-height: 520px;
+  background-color: #fff;
+}
+
+/*------------------header----------------*/
+
+#header {
+  background: rgba(0, 0, 0, 0.5);
+  border-bottom: 3px #a94652 solid;
+}
+
+#header .logobg {
+  background-color: #1b1e21;
+  height: 60px;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+#header a {
+  color: white !important;
+}
+
+#header input {
+  border-radius: 0 !important;
+}
+
+#header button {
+  border-radius: 0 !important;
+}
+
+#header .searchbutton {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+#header .searchbutton:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+#header .search {
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.welcome_page .container_block {
+  max-width: 1440px !important;
+}
+
+.welcome_page .card {
+  border: 1px #5da752 solid;
+  min-height: 520px;
+  background-color: #fff;
+}
+
+.welcome_page .advantages_block_circle {
+  width: 150px;
+  height: 150px;
+  margin: 60px auto 40px auto;
+  border-radius: 50%;
+  box-shadow: inset 28px -28px 40px -25px rgba(176, 176, 176, 0.5), inset 28px 28px 40px -25px rgba(176, 176, 176, 0.5), inset -28px -28px 40px -25px rgba(176, 176, 176, 0.5), inset -28px 28px 40px -25px rgba(176, 176, 176, 0.5);
+}
+
+.welcome_page .advantages {
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 572px;
+}
+
+.welcome_page .advantages_wrapper {
+  background-color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 1440px;
+}
+
+.welcome_page .trade_marks {
+  max-width: 1040px;
+  margin: auto;
+}
+
+.welcome_page .trade_marks img {
+  width: 50%;
+  height: 50%;
+}
+
+.welcome_page .trade_marks #last_images img {
+  width: 18% !important;
+}
+
+.welcome_page .trade_marks .img_wrapper {
+  width: 90%;
+  height: 150px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.welcome_page .trade_marks .img_wrapper:hover {
+  box-shadow: inset 1px 1px 8px rgba(100, 100, 100, 0.7);
+}
+
+.welcome_page .trade_marks .last_img_wrapper {
+  width: 90%;
+  height: 150px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.welcome_page .trade_marks .last_img_wrapper:hover {
+  box-shadow: inset 1px 1px 8px rgba(100, 100, 100, 0.7);
+}
+
+.welcome_page .row_advantages {
+  max-width: 1440px;
+}
+
+.welcome_page .container_3 h2 {
+  color: #ffffff;
+}
+
+.welcome_page .container_3 .advantages_block_circle {
+  margin-bottom: 0;
+}
+
+.welcome_page .container_3 .card {
+  min-height: 380px;
+  border: none;
+}
+
+/*------------------footer----------------*/
+
+footer {
+  color: #ffffff;
+  background-color: #1f1a17;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer .row {
+  max-width: 1440px;
+  margin: auto;
+}
+
+footer .copyright_container {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+footer div.scrollup {
+  position: fixed;
+  /* фиксированная позиция */
+  color: #fff;
+  /* цвет текста */
+  background-color: #286090;
+  /* цвет заднего фона */
+  right: 20px;
+  /* расстояние от правого края */
+  bottom: 0px;
+  /* расстояние от нижнего края */
+  padding: 4px 10px;
+  /* отступы до содержимого блока */
+  font-size: 20px;
+  /* размер шрифта (иконки) */
+  border-top-left-radius: 4px;
+  /* скругление верхнего левого угла */
+  border-top-right-radius: 4px;
+  /* скругление верхнего правого угла */
+  cursor: pointer;
+  /* форма курсора */
+  display: none;
+  /* не отображать элемент */
+  text-align: center;
+  /*выравнивание содержимого элемента по центру */
+}
+
+footer div.scrollup:hover {
+  background-color: #000;
+  /* цвет заднего фона при наведении */
+}
+
