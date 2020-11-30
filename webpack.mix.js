@@ -11,12 +11,20 @@ const mix = require('laravel-mix');
  |
  */
 
+mix.sass('resources/assets/front/sass/additional.scss', 'public/assets/front/css/sass.css');
+
 
 mix.styles([
         'resources/assets/admin/plugins/fontawesome-free/css/all.css',
         'resources/assets/admin/css/adminlte.css'
-
     ], 'public/assets/admin/css/admin.min.css'
+)
+
+mix.styles([
+        'resources/assets/front/css/bootstrap.css',
+        'resources/assets/admin/plugins/fontawesome-free/css/all.css',
+        'public/assets/front/css/sass.css'
+    ], 'public/assets/front/css/additional.css'
 )
 
 
@@ -24,18 +32,29 @@ mix.scripts([
     'resources/assets/admin/plugins/jquery/jquery.js',
     'resources/assets/admin/plugins/bootstrap/js/bootstrap.bundle.js',
     'resources/assets/admin/js/adminlte.js',
-    'resources/assets/admin/js/demo.js'
-
+    'resources/assets/admin/js/demo.js',
 ], 'public/assets/admin/js/admin.min.js')
+
+mix.scripts([
+    'resources/assets/admin/plugins/jquery/jquery.js',
+    'resources/assets/admin/plugins/bootstrap/js/bootstrap.bundle.js',
+    'resources/assets/front/js/scroll.js',
+], 'public/assets/front/js/scripts.min.js')
+
 
 mix.copyDirectory(
     'resources/assets/admin/plugins/fontawesome-free/webfonts',
-    'public/assets/admin/webfonts'
+    'public/assets/front/webfonts'
 )
 
 mix.copyDirectory(
     'resources/assets/admin/img',
     'public/assets/admin/img'
+)
+
+mix.copyDirectory(
+    'resources/assets/front/img',
+    'public/assets/front/img'
 )
 
 mix.copy(

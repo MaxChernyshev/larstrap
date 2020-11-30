@@ -1,0 +1,192 @@
+@import "colors";
+
+body {
+    background-color: #dfeddc;
+
+    overflow-x:hidden;
+
+    .news_block {
+        border: 1px #5da752 solid;
+        min-height: 520px;
+        background-color: #fff;
+    }
+}
+
+/*------------------header----------------*/
+#header {
+    background: rgba(0, 0, 0, .5);
+    border-bottom: 3px #a94652 solid;
+
+    .logobg {
+        background-color: #1b1e21;
+        height: 60px;
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    a {
+        color: white !important;
+    }
+
+    input {
+        border-radius: 0 !important;
+    }
+
+    button {
+        border-radius: 0 !important;
+    }
+
+
+    .searchbutton {
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 0;
+    }
+
+    .searchbutton:hover {
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 0;
+    }
+
+    .search {
+        border: 1px solid black;
+        border-radius: 0;
+    }
+}
+
+
+.welcome_page {
+    .container_block {
+        max-width: 1440px !important;
+    }
+
+    .card {
+        border: 1px #5da752 solid;
+        min-height: 520px;
+        background-color: #fff;
+    }
+
+    .advantages_block_circle {
+        width: 150px;
+        height: 150px;
+        margin: 60px auto 40px auto;
+        border-radius: 50%;
+        box-shadow: inset 28px -28px 40px -25px rgba(176, 176, 176, .5), inset 28px 28px 40px -25px rgba(176, 176, 176, .5), inset -28px -28px 40px -25px rgba(176, 176, 176, .5), inset -28px 28px 40px -25px rgba(176, 176, 176, .5);
+    }
+
+    .advantages {
+        background-position: top center;
+        background-repeat: no-repeat;
+        min-height: 572px;
+    }
+
+    .advantages_wrapper {
+        background-color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        max-width: 1440px;
+    }
+
+    .trade_marks {
+        max-width: 1040px;
+        margin: auto;
+
+        img {
+            width: 50%;
+            height: 50%;
+        }
+
+        #last_images {
+            img {
+                width: 18% !important;
+            }
+        }
+
+        .img_wrapper {
+            width: 90%;
+            height: 150px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+        }
+
+        .img_wrapper:hover {
+            box-shadow: inset 1px 1px 8px rgba(100, 100, 100, .7);
+        }
+
+        .last_img_wrapper {
+            width: 90%;
+            height: 150px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .last_img_wrapper:hover {
+            box-shadow: inset 1px 1px 8px rgba(100, 100, 100, .7);
+        }
+    }
+
+    .row_advantages {
+        max-width: 1440px;
+    }
+
+    .container_3 {
+        h2 {
+            color: #ffffff;
+        }
+
+        .advantages_block_circle {
+            margin-bottom: 0;
+        }
+
+        .card {
+            min-height: 380px;
+            border: none;
+        }
+    }
+
+}
+
+/*------------------footer----------------*/
+footer {
+    color: #ffffff;
+    background-color: #1f1a17;
+
+    a {
+        color: #ffffff;
+    }
+
+    .row {
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .copyright_container {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    div.scrollup {
+        position: fixed; /* фиксированная позиция */
+        color: #fff; /* цвет текста */
+        background-color: #286090; /* цвет заднего фона */
+        right: 20px; /* расстояние от правого края */
+        bottom: 0px; /* расстояние от нижнего края */
+        padding: 4px 10px; /* отступы до содержимого блока */
+        font-size: 20px; /* размер шрифта (иконки) */
+        border-top-left-radius: 4px; /* скругление верхнего левого угла */
+        border-top-right-radius: 4px; /* скругление верхнего правого угла */
+        cursor: pointer; /* форма курсора */
+        display: none; /* не отображать элемент */
+        text-align: center; /*выравнивание содержимого элемента по центру */
+    }
+    div.scrollup:hover {
+        background-color: #000; /* цвет заднего фона при наведении */
+    }
+
+}
+
